@@ -1,0 +1,13 @@
+.grid-container h2 {
+    font-size: 1.6rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+}
+
+.grid-container h3 {
+    font-weight: 700;
+}
+
+.grid-container section article {
+    margin-bottom: 0.5rem;
+}
