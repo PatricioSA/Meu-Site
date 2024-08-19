@@ -1,0 +1,33 @@
+section {
+    display: grid;
+    align-items: center;
+}
+
+section .text h1 {
+    font-size: 2.25rem;
+    font-weight: 700;
+    padding: 1rem 0;
+}
+
+section .text p {
+    font-size: 1.125rem;
+}
+
+section .image {
+    text-align: center;
+}
+
+section .image img {
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 0.5rem;
+    box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+}
+
+@media (min-width: 768px) {
+    .container {
+        grid-template-columns: 1fr 1fr;
+        padding: 5rem 1.5rem;
+    }
+}
