@@ -60,7 +60,8 @@ header .mobile-nav a {
     color: rgb(8 145 178);
 }
 
-header .desktop-nav-container, .mobile-nav {
+header .desktop-nav-container,
+.mobile-nav {
     display: none;
 }
 
@@ -79,7 +80,13 @@ header .links {
     color: rgb(236 254 255);
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1024px) {
+    .container {
+        width: 100%;
+    }
+}
+
+@media (min-width: 1366px) {
     .container {
         width: 70%;
     }
@@ -98,7 +105,7 @@ header .links {
         align-items: center;
         justify-content: space-between
     }
-    
+
     header .desktop-nav-container .desktop-nav {
         display: flex;
         align-items: center;
